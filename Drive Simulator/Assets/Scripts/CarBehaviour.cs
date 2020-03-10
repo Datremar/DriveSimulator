@@ -37,7 +37,7 @@ public class CarBehaviour : MonoBehaviour
 
         //transform.Rotate(0, 1f, 0);
 
-        temp = Pathfinding.GetPath().ToArray();
+        //temp = Pathfinding.GetPath().ToArray();
 
         for (int i = 0; i < temp.Length; i++)
         {

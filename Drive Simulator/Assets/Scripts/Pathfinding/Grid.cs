@@ -47,8 +47,8 @@ public class Grid : MonoBehaviour
                 if (x == 0 && y == 0)
                     continue;
 
-                int checkX = node.gridX + x;
-                int checkY = node.gridY + y;
+                int checkX = node.GridX + x;
+                int checkY = node.GridY + y;
 
                 if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY)
                 {
@@ -82,11 +82,11 @@ public class Grid : MonoBehaviour
         {
             foreach (Node n in grid)
             {
-                Gizmos.color = (n.walkable) ? Color.white : Color.red;
+                Gizmos.color = (n.Walkable) ? Color.white : Color.red;
                 if (path != null)
                     if (path.Contains(n))
                         Gizmos.color = Color.black;
-                Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter - .1f));
+                Gizmos.DrawCube(n.WorldPosition, Vector3.one * (nodeDiameter - .1f));
             }
         }
     }

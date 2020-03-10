@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -96,7 +96,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 272}
   m_MaxSize: {x: 18008, y: 10022}
   vertical: 0
-  controlID: 164
+  controlID: 162
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.3586922, y: -0.6184085, z: 0.37623346, w: 0.5894607}
     speed: 2
-    m_Value: {x: 0.35923734, y: -0.6174913, z: 0.37567532, w: 0.59035677}
+    m_Value: {x: 0.35867342, y: -0.61837614, z: 0.37621376, w: 0.5894298}
   m_Size:
     m_Target: 280.50662
     speed: 2
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a270000
+      m_SelectedIDs: 7e2a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 76fbffff
+      m_ExpandedIDs: 5afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,19 +622,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scripts/Pathfinding
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scripts/Pathfinding
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityProjects\Drive Simulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 862f0000
-    m_LastClickedID: 12166
+    m_SelectedIDs: 562e0000
+    m_LastClickedID: 11862
     m_ExpandedIDs: 00000000be2c0000ba2d0000862f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
